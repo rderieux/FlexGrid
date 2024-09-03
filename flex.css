@@ -9,6 +9,12 @@ body > * {
   border: 3px solid black;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 header {
   text-align: center;
   border: 3px solid black;
@@ -23,7 +29,6 @@ header {
 .middle {
   display: flex;
   flex: 5;
-  --gap: 1rem;
 }
 
 .left {
@@ -48,6 +53,7 @@ ul {
   border: 3px solid black;
   padding: 1rem;
 }
+
 
 .footer {
   display: flex;
