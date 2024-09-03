@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > * {
+  border: 3px solid black;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 10% 5fr 10%;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  margin: 2 rem;
+}
+
+.sidebar {
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: 2em;
+}
+
+.main.content {
+  padding: 1rem;
+}

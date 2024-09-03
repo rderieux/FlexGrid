@@ -1,0 +1,63 @@
+/*Reset the CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > * {
+  border: 3px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+  text-align: center;
+  border: 3px solid black;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.middle {
+  display: flex;
+  flex: 5;
+}
+
+.left {
+  padding: 1rem;
+  flex: 1;
+  border: 3px solid black;
+  width: 25%;
+}
+
+.right {
+  flex: 1;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+.main {
+  flex: 5;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  flex: 1;
+}
