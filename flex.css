@@ -10,9 +10,9 @@ body > * {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -24,6 +24,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  flex: 1;
 }
 
 .middle {
@@ -53,7 +54,6 @@ ul {
   border: 3px solid black;
   padding: 1rem;
 }
-
 
 .footer {
   display: flex;
